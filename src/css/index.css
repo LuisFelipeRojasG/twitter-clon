@@ -11,11 +11,6 @@
     font-size: 4rem;
 }
 
-.header--icon__white {
-    color: white;
-    font-size: 20rem;
-}
-
 .main--titles {
     margin-bottom: 19px;
     font-weight: 700;
@@ -104,6 +99,11 @@
     align-items: center;
 }
 
+.header--icon__white {
+    color: white;
+    font-size: 20rem;
+}
+
 .footer {
     width: 100%;
     padding: 15px;
@@ -150,7 +150,43 @@
     }
 }
 
+@media screen and (min-width: 800px){
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
+    .main--background,  
+    .main--container{
+        width: 50vw;
+        height: 100vh;
+    }
+
+    .main--container {
+        margin: 0 34px;
+    }
+
+    .main--container .header {
+        margin-top: 34px;
+    }
+
+    .main--titles h1 {
+        font-size: 7rem;
+    }
+
+    .main--division .line {
+        width: 22vw;
+    }
+
+    .main--buttons h3 {
+        text-align: center;
+    }
+
+    .header--icon__white {
+        font-size: 30rem;
+    }
+
+}
 
 
 
