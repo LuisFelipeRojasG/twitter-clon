@@ -1,0 +1,107 @@
+body {
+    width: 500px;
+    height: 549px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    text-align: center;
+}
+
+.main--head img {
+    width: 80px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;   
+}
+
+.main--head h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.main--head h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.main--mail .mail {
+    width: 420px;
+    height: 55px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1.8rem;
+}
+
+.main--mail h3 a {
+    color: var(--brand-color);
+    font-weight: bold;
+}
+
+.main--mail .remember, 
+.information {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.main--mail .information {
+    font-weight: 400;
+    color: gray;
+}
+
+.main--buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.main--buttons button {
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #1a73e8;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.main--buttons button:hover {
+    background-color: #0e5fc9;
+}
+
+.main--buttons a {
+    color: var(--brand-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+footer {
+    margin: 0 40px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: gray;
+}
+
+.footer--container,
+article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer--container article h4 {
+    margin-left: 30px;
+}
+
+
+
+
+

@@ -36,6 +36,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .main--button i, img {
@@ -52,6 +53,14 @@
     background-color: var(--brand-color);
     color: white;
     border: 0;
+}
+
+.main--button__white:hover {
+    background-color: rgb(233, 247, 247);
+}
+
+.main--button__blue:hover {
+    background-color: #1188d8;
 }
 
 .main--division {
@@ -147,6 +156,10 @@
     .main--buttons h3 {
         width: 250px;
         padding-top: 10px;
+    }
+
+    .header--icon__white {
+        font-size: 30rem;
     }
 }
 
