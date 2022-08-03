@@ -1,0 +1,155 @@
+body {
+    width: 700px;
+    height: 658px;
+    color: #b2b2be;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+header {
+    border: 1px solid var(--border-color);
+}
+
+.header--icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+}
+
+.icon-apple i{
+    font-size: 2rem;
+    color: #d6d6d6;
+}
+
+.header--id {
+    display: flex;
+    height: 50px;
+    margin: 0 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.header--id img {
+    width: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.main--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 102px;
+    margin-bottom: 20px;
+}
+
+.main--logo .logotwitter {
+    width: 72px;
+    height: 72px;
+    margin-top: 30px;
+    border-radius: 18px;
+    background-color: var(--brand-color);
+}
+
+.logotwitter i {
+    color: white;
+    font-size: 5rem;
+}
+
+.main--access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main--access h2{
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: 949494;
+}
+
+.main--access input {
+    width: 380px;
+    height: 55px;
+    font-size: 2rem;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+    color: #b2b2be;
+}
+
+.input-wrapper img {
+    position: absolute;
+    width: 28px;
+    left: 340px;
+    top: 25%;
+}
+
+.main--access a {
+    display: flex;
+    font-size: 1.3rem;
+    color:var(--brand-color);
+}
+
+.main--access a img {
+    width: 20px;
+    margin-bottom: 20px;
+}
+
+.main--information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 90px;
+}
+
+.private-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.private-image img {
+    width: 35px;
+}
+
+.main--information h4 {
+    width: 100%;
+    height: 98px;
+    padding: 0 180px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.main--information h4 a {
+    color: var(--brand-color);
+}
+
+footer h4 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
