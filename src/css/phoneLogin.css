@@ -1,0 +1,108 @@
+body {
+    width: 600px;
+    height: 550px;
+    *background-color: aquamarine;
+}
+
+header {
+    display: flex;
+    margin: 20px;
+}
+
+header a {
+    width: 20px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+header a img{
+    width: 15px;
+    padding-top: 3px;
+}
+
+header h2 {
+    font-size: 1.8rem;
+}
+
+.main--form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 70px;
+}
+
+.main--form h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.main--form input {
+    width: 100%;
+    height: 55px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.main--form a {
+    font-size: 1.2rem;
+    text-align: end;
+    color: var(--brand-color);
+}
+
+.main--date {
+    display: flex;
+    flex-direction: column;
+    margin: 0 70px;
+}
+
+.main--date h3 {
+    font-size: 1.5rem;
+}
+
+.main--date h4 {
+    font-size: 1.3rem;
+    color: #b2b2be;
+    margin-bottom: 20px;
+}
+
+.date--container {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.date--container .label {
+    position: absolute;
+    margin: 8px;
+    font-size: 1.3rem;
+    color: #b2b2be;
+}
+
+.main--date .date-month {
+    width: 220px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.main--date .date-day {
+    width: 100px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.main--date .date-year {
+    width: 114px;
+    height: 60px;
+}
+
+.main--date-button {
+    height: 50px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #bdbfc0;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
