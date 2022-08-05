@@ -50,6 +50,7 @@
 }
 
 .main--button__blue {
+    height: 40px;
     background-color: var(--brand-color);
     color: white;
     border: 0;
@@ -159,7 +160,7 @@
     }
 
     .header--icon__white {
-        font-size: 30rem;
+        font-size: 25vw;
     }
 }
 
@@ -169,10 +170,14 @@
         flex-direction: row-reverse;
     }
 
-    .main--background,  
+    .main--background {
+        width: 40vw;
+        height: auto;
+    }
+
     .main--container{
-        width: 50vw;
-        height: 100vh;
+        width: 60vw;
+        height: 100%;
     }
 
     .main--container {
@@ -184,7 +189,7 @@
     }
 
     .main--titles h1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     .main--division .line {
@@ -195,8 +200,13 @@
         text-align: center;
     }
 
+    .main--buttons .main--text {
+        font-size: 1.5rem;
+        margin: 30px;
+    }
+
     .header--icon__white {
-        font-size: 30rem;
+        font-size: 25vw;
     }
 
 }

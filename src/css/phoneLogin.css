@@ -1,7 +1,6 @@
 body {
-    width: 600px;
-    height: 550px;
-    *background-color: aquamarine;
+    width: auto;
+    height: auto;
 }
 
 header {
