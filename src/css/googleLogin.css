@@ -29,7 +29,7 @@ main {
 }
 
 .main--mail .mail {
-    width: 420px;
+    width: 80vw;
     height: 55px;
     margin-bottom: 10px;
     padding-left: 20px;
@@ -94,7 +94,7 @@ footer {
 .footer--container,
 article {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .footer--container article h4 {

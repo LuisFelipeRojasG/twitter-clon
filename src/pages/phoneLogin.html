@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/phoneLogin.css">
-    <title>Document</title>
 </head>
 <body>
     <header>
-        <a><img src="../assets/images/x.png" alt=""></a>
+        <a><img src="../assets/images/x.png" alt="Salir"></a>
         <h2>Paso 1 de 5</h2>
     </header>
     <main>
@@ -44,7 +43,7 @@
                     <option value="diciembre">Diciembre</option>
                 </select>
                 <label class="label date--day-l">Día</label>
-                <select name="Día" class="date-day">
+                <select name="Día" class="date-day" placeholder="Día">
                     <option value="vacio"></option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -79,7 +78,7 @@
                     <option value="31">31</option>
                 </select>
                 <label class="label date--year-l">Año</label>
-                <select name="Año" class="date-year">
+                <select name="Año" class="date-year" placeholder="Year">
                     <option value="vacio"></option>
                     <option value="2022">2022</option>
                     <option value="2021">2021</option>
@@ -91,6 +90,11 @@
                     <option value="2015">2015</option>
                     <option value="5014">2014</option>
                 </select>
+            </div>
+            <div class="date--input">
+                <form action="">
+                    <input type="text" placeholder="Fecha de Nacimiento">
+                </form>
             </div>
             <button class="main--date-button">Siguiente</button>
         </section>

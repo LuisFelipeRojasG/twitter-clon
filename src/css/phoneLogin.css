@@ -26,7 +26,7 @@ header h2 {
 .main--form {
     display: flex;
     flex-direction: column;
-    margin: 20px 70px;
+    margin: 20px 10vw;
 }
 
 .main--form h1 {
@@ -52,7 +52,7 @@ header h2 {
 .main--date {
     display: flex;
     flex-direction: column;
-    margin: 0 70px;
+    margin: 0 10vw;
 }
 
 .main--date h3 {
@@ -80,18 +80,22 @@ header h2 {
 .main--date .date-month {
     width: 220px;
     height: 60px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .main--date .date-day {
     width: 100px;
     height: 60px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .main--date .date-year {
     width: 114px;
     height: 60px;
+}
+
+.date--input {
+    display: none;
 }
 
 .main--date-button {
@@ -104,4 +108,23 @@ header h2 {
     font-weight: bold;
 }
 
+@media screen and (max-width: 400px){
 
+    .date--container {
+        display: none;
+    }
+
+    .main--date input {
+        width: 100%;
+        height: 55px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        border: 1px solid var(--border-color);
+        border-radius: 5px;
+    }
+
+    .date--input {
+        display: block;
+    }
+
+}

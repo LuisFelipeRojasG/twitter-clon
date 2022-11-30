@@ -78,30 +78,34 @@ header {
 
 .main--access h2{
     margin-bottom: 15px;
+    padding: 0 10px;
+    text-align: center;
     font-size: 2rem;
     font-weight: 400;
-    color: 949494;
-}
-
-.main--access input {
-    width: 380px;
-    height: 55px;
-    font-size: 2rem;
-    padding-left: 20px;
-    border-radius: 5px;
-    border: 1px solid var(--border-color);
+    color: #949494;
 }
 
 .input-wrapper {
     position: relative;
+    width: 80vw;
     margin-bottom: 20px;
     color: #b2b2be;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+}
+
+.input-wrapper input {
+    width: 50vw;
+    height: 55px;
+    font-size: 2rem;
+    padding: 0 20px;
+    border: none;
 }
 
 .input-wrapper img {
     position: absolute;
+    margin-left: 15vw;
     width: 28px;
-    left: 340px;
     top: 25%;
 }
 
@@ -121,7 +125,7 @@ header {
     flex-direction: column;
     justify-content: center;
     width: auto;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
 }
 
 .private-image {
@@ -135,9 +139,9 @@ header {
 }
 
 .main--information h4 {
-    width: 100%;
+    width: auto;
     height: 98px;
-    padding: 0 180px;
+    padding: 0 10px;
     font-size: 1.3rem;
     font-weight: 100;
     text-align: center;
@@ -151,5 +155,31 @@ footer h4 {
     text-align: center;
     font-size: 1.2rem;
 }
+
+@media screen and (min-width: 572px) {
+
+    .input-wrapper {
+        width: 65vw;
+    }
+
+    .input-wrapper input {
+        width: 58vw;
+    }
+
+    .input-wrapper img {
+        margin-left: 1vw;
+    }
+
+    .main--information h4 {
+        padding: 0 180px;
+    }
+ 
+    .main--information {
+        margin-bottom: 80px;
+    }
+
+}
+
+
 
 
